@@ -1,0 +1,18 @@
+{
+	"name" : "php-server-reload",
+	"version" : "1.0.0",
+	"description" : "Hot Reload for PHP Server",
+	"main" : "gulpfile.js",
+	"scripts" : {
+		"test" : "echo \"Error: no test specified\" && exit 1",
+		"gulp" : "gulp default"
+	},
+	"keywords" : ["relaod", "php", "gulp", "browser-sync"],
+	"author" : "Asiqur Rahman",
+	"license" : "MIT",
+	"devDependencies" : {
+		"browser-sync" : "^2.27.7",
+		"gulp" : "^4.0.2",
+		"gulp-connect-php" : "^1.0.3"
+	}
+}
